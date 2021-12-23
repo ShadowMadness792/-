@@ -23,14 +23,15 @@ require 'configDB.php';
 
 
 if($_COOKIE['user']=='' and $_COOKIE['admin']==''):?>
-  <!-- <a class="btn btn-primary" href="/account.php">Войти</a> -->
   <?php elseif($_COOKIE['admin']!=''): ?>
   <div class="hi" style="color: black">Здравствуйте, <?=$_COOKIE['admin']?></div>
   <a class="btn btn-primary" href="/doctors.php">Список врачей</a>
+  <a class="btn btn-primary" href="/session.php">Записи</a>
+  <a class="btn btn-primary" href="/shifts.php">Смены</a>
   <a class="btn btn-primary" href="/exit.php">Выход</a>
   <?php else: ?>
   <div class="hi" style="color: black">Здравствуйте, <?=$_COOKIE['user']?></div>
-  <a class="btn btn-primary" href="/appointment.php">Записаться</a>
+  <a class="btn btn-primary" href="/session.php">Записаться</a>
   <a class="btn btn-primary" href="/exit.php">Выход</a>
   
 <?php endif;?>

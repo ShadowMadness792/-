@@ -23,10 +23,8 @@ if($user->admin=='0')
     header('Location: /');
 }
 else{
-
     echo "Такой пользователь не найден";
     exit();
-    
 }
 
  ?>

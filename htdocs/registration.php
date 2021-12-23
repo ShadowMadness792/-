@@ -23,23 +23,22 @@
 </nav>
 
 <div class="container">
-    <img width="200px" height="200px" src="img\avatar.png">
-		<form action="/check.php" method="POST">
-			<div class="dws-input">
-              <input type="text" name="name" placeholder="Введите ФИО">
-            </div>
-            <div class="dws-input">
-              <input type="password" name="password" placeholder="Введите пароль">
-            </div>
-			<div class="dws-input">
-              <input type="text" name="phone" placeholder="Введите номер телефона">
-            </div>
-			<div class="dws-input">
-              <input type="text" name="birth_date" placeholder="Введите дату рождения">
-            </div>
-            <input class="dws-submit" type="submit" name="submit" value="Зарегистрироваться"><br />
-
-		</form>
+  <img width="200px" height="200px" src="img\avatar.png">
+  <form action="/check.php" method="POST">
+    <div class="dws-input">
+      <input type="text" name="name" placeholder="Введите ФИО">
+    </div>
+    <div class="dws-input">
+      <input type="password" name="password" placeholder="Введите пароль">
+    </div>
+    <div class="dws-input">
+      <input type="text" name="phone" placeholder="Введите номер телефона">
+    </div>
+    <div class="dws-input">
+      <input type="text" name="birth_date" placeholder="Введите дату рождения">
+    </div>
+    <input class="dws-submit" type="submit" name="submit" value="Зарегистрироваться"><br />
+  </form>
 </div>
 
 
